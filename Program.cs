@@ -1,5 +1,6 @@
 ﻿using System;
 using MantiksalOperatorler;
+using RuntimeErrors;
 using SwitchCase;
 using TernaryOperator;
 using TryCatchFinaly;
@@ -85,6 +86,9 @@ namespace ConsoleApp
 
             TryCatchFinalyClass tryCatchFinalyClass = new TryCatchFinalyClass();
             tryCatchFinalyClass.TryCatchFinalyDers();
+
+            RuntimeErrorsClass runtimeErrorsClass = new RuntimeErrorsClass();
+            runtimeErrorsClass.RuntimeErrorsDers();
         }
     }
 }
