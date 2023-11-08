@@ -1,5 +1,11 @@
 ﻿using System;
+using BreakContinueKeywords;
+using Diziler;
+using DiziMetotlari;
+using ForDongusu;
+using ForEachDongusu;
 using MantiksalOperatorler;
+using Metotlar;
 using RuntimeErrors;
 using SwitchCase;
 using TernaryOperator;
@@ -85,10 +91,26 @@ namespace ConsoleApp
             // switchCase.SwitchCaseDers();
 
             TryCatchFinalyClass tryCatchFinalyClass = new TryCatchFinalyClass();
-            tryCatchFinalyClass.TryCatchFinalyDers();
+            // tryCatchFinalyClass.TryCatchFinalyDers();
 
             RuntimeErrorsClass runtimeErrorsClass = new RuntimeErrorsClass();
-            runtimeErrorsClass.RuntimeErrorsDers();
+            // runtimeErrorsClass.RuntimeErrorsDers();
+
+            ForDongusuClass forDongusuClass = new ForDongusuClass();
+            // forDongusuClass.ForDongusuDers();
+
+            BreakContinueKeywordsClass breakContinueKeywordsClass =
+                new BreakContinueKeywordsClass();
+            // breakContinueKeywordsClass.BreakContinueKeywordsDers();
+
+            ForEachDongusuClass forEachDongusuClass = new ForEachDongusuClass();
+            // forEachDongusuClass.ForEachDongusuDers();
+
+            DiziMetotlariClass diziMetotlari = new DiziMetotlariClass();
+            // diziMetotlari.DiziMetotlariDers();
+
+            MetotlarClass metotlarClass = new MetotlarClass();
+            metotlarClass.MetotlarDers();
         }
     }
 }
