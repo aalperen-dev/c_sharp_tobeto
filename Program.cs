@@ -1,4 +1,5 @@
 ﻿using System;
+using AlanHesaplama;
 using BreakContinueKeywords;
 using Diziler;
 using DiziMetotlari;
@@ -6,6 +7,7 @@ using ForDongusu;
 using ForEachDongusu;
 using MantiksalOperatorler;
 using Metotlar;
+using ResursiveMetot;
 using RuntimeErrors;
 using SwitchCase;
 using TernaryOperator;
@@ -110,7 +112,13 @@ namespace ConsoleApp
             // diziMetotlari.DiziMetotlariDers();
 
             MetotlarClass metotlarClass = new MetotlarClass();
-            metotlarClass.MetotlarDers();
+            // metotlarClass.MetotlarDers();
+
+            ResursiveMetotClass resursiveMetotClass = new ResursiveMetotClass();
+            // resursiveMetotClass.ResursiveMetotDers();
+
+            AlanHesaplamaClass alanHesaplamaClass = new AlanHesaplamaClass();
+            alanHesaplamaClass.AlanHesaplamaDers();
         }
     }
 }
